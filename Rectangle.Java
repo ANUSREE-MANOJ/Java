@@ -6,9 +6,10 @@ public class Rectangle {
     private double height;
 
     /**
-     * Constructs a new Rectangle with specified width and height.
+     * Constructs a new Rectangle with specified width and length.
      *
      * @param width  The width of the rectangle.
+     * @param length Newly included
      * @param height The height of the rectangle.
      */
     public Rectangle(double width, double height) {
@@ -63,7 +64,7 @@ public class Rectangle {
     /**
      * Calculates the perimeter of the rectangle.
      *
-     * @return The perimeter of the rectangle.
+     * @return The perimeter of the square.
      */
     public double calculatePerimeter() {
         return 2 * (width + height);
@@ -82,3 +83,4 @@ public class Rectangle {
         System.out.println("Perimeter: " + rectangle.calculatePerimeter());
     }
 }
+
